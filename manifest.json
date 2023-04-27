@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "gente",
+  "version": "0.1",
+
+  "description": "Insert texts into any text input when you right click on it",
+  "homepage_url": "https://github.com/g3th3x/gente",
+  "icons": {
+    "192": "icons/icon192.png"
+  },
+
+  "permissions": ["activeTab", "contextMenus"],
+
+  "options_page": "options/index.html",
+
+  "browser_action": {
+    "default_icon": "icons/icon192.png",
+    "default_title": "gente",
+    "default_popup": "popup/index.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "gente@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  }
+}

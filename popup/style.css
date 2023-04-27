@@ -1,0 +1,20 @@
+html,
+body {
+  width: 120px;
+}
+
+.button {
+  margin: 10px;
+  padding: 4px;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.test:hover {
+  background-color: #e7b017;
+}
+
+.test {
+  background-color: #d2e052;
+}
