@@ -13,7 +13,8 @@
 
   "background": {
     "scripts": ["background/index.js"],
-    "persistent": false
+    "persistent": false,
+    "type": "module"
   },
 
   "content_scripts": [
